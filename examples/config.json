@@ -1,0 +1,38 @@
+{
+    "trafficClasses": [
+        {
+            "bytes": 0,
+            "packets": 0,
+            "maxPackets": 1000,
+            "maxBytes": 10000,
+            "weight": 1.0,
+            "priorityLevel": 2,
+            "isDefault": true,
+            "filters": [
+                [
+                    {
+                        "type": "DestPort",
+                        "value": 2003
+                    }
+                ]
+            ]
+        },
+        {
+            "bytes": 0,
+            "packets": 0,
+            "maxPackets": 1000,
+            "maxBytes": 20000,
+            "weight": 0.5,
+            "priorityLevel": 1,
+            "isDefault": true,
+            "filters": [
+                [
+                    {
+                        "type": "DestPort",
+                        "value": 2001
+                    }
+                ]
+            ]
+        }
+    ]
+}
